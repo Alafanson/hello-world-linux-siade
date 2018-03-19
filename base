@@ -1,0 +1,83 @@
+sudo passwd root     
+shutdown -r now      
+shutdown             
+cat /filename        //（http://www.cnblogs.com/perfy/archive/2012/07/23/2605550.html）
+alias                
+alias la='ls -al'    
+ls                   
+ls -l                
+ls -l /filename/X*   
+cd                   
+type -ls \ cd        
+\ Enter              
+cp                   //copy
+varname1=varname2    
+echo varname         
+echo ${varname}      
+unset varname        
+env                  
+echo $RANDOM         //0~32767
+echo $$              //PID
+echo $?              
+export varname       
+export               
+read                 
+read -p"plz input sth" -t 30 named
+sudo apt-get install ibus-sunpinyin
+declare -i varname=n+n
+sudo apt-get install --reinstall ubuntu-desktop
+type -a commend
+cd ~       rm -rf.Xaut*
+cat /etc/issue      //welcome information
+source              //read information without reboot
+cat ~/.bashrc       //a file which difine system environments depending root/user login
+stty -a             //pull out all of var
+(tty)stty erase keybord  //define delate keybord
+sudo bash           //be root
+sudo bash -c 'whoami;whoami" 
+                    //see if you were root
+echo $PATH | cut -d ':' -f 5  
+            6        //cut 5th : then writen
+ps -aux             //show all of ur running programs
+export | cut -c 12-20
+last                //show all of logins information
+last | grep 'root'  //show all of root logins
+last | grep -v 'root'
+                    //show all of logins which were not root
+| sort              //line up
+| grep ''           //select ''
+| wc                //count all of information -l(hang) -w(words) -m(zifu)
+cat /etc/passwd | wc -l 
+                    //count  of user
+| tr '[a-z]' '[A-Z]'
+                    //exchange all of a-z into A-Z
+| tr -d 'a'         //writeln without 'a'
+| col [-xb]         //exchange all teb into ' '
+sudo apt-get autoremove --purge ''
+                    //remove '' of all
+join [-ti12] file1 file2
+paste [-d] file1 file2
+expand [-t] file
+split [-bl] file PREFIX
+xargs [-Open] command
+dmesg               //a list of kernel info
+dmesg | grep 'eth'  //internet info of kernel
+bc                  //calculators
+df -h               //chack file space
+sudo apt install sheepdog
+dog -links url
+dog -images url
+
+
+
+
+
+
+
+
+
+
+
+
+
+
